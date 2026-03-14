@@ -4,9 +4,9 @@
 ![Python](https://img.shields.io/badge/python-3.8%2B-blue)
 ![Platform](https://img.shields.io/badge/platform-OpenClaw-orange)
 
-Binance Earn Copilot 是一个为 [OpenClaw](https://github.com/openclaw/openclaw)（或其他支持代码解释器的 AI Agent 框架）打造的专业级加密资产调度 Skill。
+Binance Earn Copilot 是一个为 [OpenClaw](https://github.com/openclaw/openclaw)（或其他支持代码解释器的 AI Agent 框架）打造的专业级加密资产调度 Skill。它一个拥有“对冲基金经理思维”的大脑。输入你的初始资金，Agent 会在后台静默调度三大 Python 脚本，动态计算摩擦成本与波动率，最终为你输出一份包含**仓位统筹、无风险套利、防守期权、顺周期定投**的完美《资产调度单》。
 
-它不仅仅是一个数据抓取脚本，而是一个拥有“对冲基金经理思维”的大脑。输入你的初始资金，Agent 会在后台静默调度三大 Python 探针，动态计算摩擦成本与波动率，最终为你输出一份包含**仓位统筹、无风险套利、防守期权、顺周期定投**的完美《资产调度单》。
+![Binance Earn Copilot Cover](png/Cover.png)
 
 ## ✨ 核心特性 (Core Features)
 
@@ -67,12 +67,15 @@ curl -O https://raw.githubusercontent.com/jasonlee16888/Binance-Earn-Copilot/mai
 BINANCE_API_KEY="your_api_key_here"
 BINANCE_API_SECRET="your_api_secret_here"
 ```
+
 ## 💬唤醒与使用 (Usage)
 重启你的 AI Agent，并在聊天框中输入以下 Prompt 唤醒大管家：
 
 “帮我调用 Binance Earn Copilot。我目前总计有 10000 USDT 闲置资金，并持有 10 个 ETH。请帮我做全盘资产调度。”
 
 Agent 将静默运行后端的 Python 脚本，约 1-2 分钟后，为你输出排版精美的《大管家资产调度单》。
+
+![Binance Earn Copilot Cover](png/result.png)
 
 ## ⚠️常见问题 (FAQ)
 Q: 为什么运行脚本时提示 ConnectionError 或 403 Forbidden？
